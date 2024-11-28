@@ -1,3 +1,4 @@
 pyzbar 
 opencv-python-headless
 streamlit
+streamlit-webrtc
