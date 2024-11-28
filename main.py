@@ -55,7 +55,7 @@ class VideoTransformer(VideoTransformerBase):
 if st.button("Mulai"):
     webrtc_streamer(
         key="example",
-        video_transformer_factory=VideoTransformer,
+        video_processor_factory=VideoTransformer,  # Updated argument name
         rtc_configuration={"iceServers": [{"urls": ["stun:stun.l.google.com:19302"]}]},
     )
 
