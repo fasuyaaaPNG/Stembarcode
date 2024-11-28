@@ -4,7 +4,7 @@ import streamlit as st
 from streamlit_webrtc import VideoTransformerBase, webrtc_streamer
 
 # Load the face cascade for face detection
-faceCascade = cv2.CascadeClassifier(cv2.haarcascades + 'haarcascade_frontalface_default.xml')
+faceCascade = cv2.CascadeClassifier(cv2.data.haarcascades + 'haarcascade_frontalface_default.xml')
 
 # Streamlit setup
 st.title("Barcode Scanner with Streamlit")
